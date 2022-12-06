@@ -1,0 +1,40 @@
+.projects {
+  margin-bottom: 50px;
+}
+.project__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.project__item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.project,
+.project__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.project__brackets {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.project__list {
+  padding: 0;
+  margin-left: 15px;
+}
+.project__link {
+  margin-left: 10px;
+}
