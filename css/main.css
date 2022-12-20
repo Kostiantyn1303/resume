@@ -3,6 +3,13 @@ body {
   background-color: #f5f7fa;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -100,51 +107,21 @@ body {
   margin-left: 10px;
 }
 
-.work__position {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #000000;
-  margin-bottom: 10px;
-}
-
-.work__organization {
-  font-style: normal;
+.education__university {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: #fb6d3a;
-}
-
-.work__period {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  color: #a8a8a8;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.work__line {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  color: #000000;
-}
-
-.work__list {
-  padding: 0;
-  margin-left: 15px;
-}
-
-.work-list__item {
-  font-style: normal;
-  font-weight: 400;
+.education__proffesion {
+  font-weight: 700;
   font-size: 14px;
-  line-height: 24px;
-  color: #595959;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 10px;
 }
 
 .sidebar {
