@@ -34,7 +34,13 @@
 .project__list {
   padding: 0;
   margin-left: 15px;
+  text-decoration: none;
 }
 .project__link {
   margin-left: 10px;
+  text-decoration: none;
+}
+.project__link:hover,
+.project__link:focus {
+  color: #fb6d3a;
 }

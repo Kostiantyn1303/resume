@@ -101,19 +101,17 @@ img {
 .project__list {
   padding: 0;
   margin-left: 15px;
+  text-decoration: none;
 }
 
 .project__link {
   margin-left: 10px;
+  text-decoration: none;
 }
 
-.education__university {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
+.project__link:hover,
+.project__link:focus {
   color: #fb6d3a;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .education__proffesion {
@@ -154,7 +152,18 @@ img {
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
-  margin-right: 5px;
+}
+
+.sidebar--tel {
+  margin-right: 40px;
+}
+
+.sidebar--email {
+  margin-right: 30px;
+}
+
+.sidebar--git {
+  margin-right: 12px;
 }
 
 .sidebar__contact-link {
@@ -167,7 +176,7 @@ img {
 
 .sidebar__contact-link:hover,
 .sidebar__contact-link:focus {
-  color: #fb6d3a;
+  fill: #fb6d3a;
 }
 
 .sidebar__contacts {
@@ -177,7 +186,7 @@ img {
 .sidebar__tech-skills-list {
   color: #fff;
   padding: 0;
-  padding-left: 15px;
+  padding-left: 20px;
 }
 
 .sidebar__tech-skills-point {
@@ -192,6 +201,10 @@ img {
   line-height: 24px;
 }
 
+.sidebar__tech-skills-item:hover {
+  color: #fb6d3a;
+}
+
 .sidebar__soft-skills-title {
   font-style: normal;
   font-weight: 700;
@@ -201,8 +214,7 @@ img {
 }
 
 .sidebar__soft-skills {
-  margin-top: 50px;
-  margin-left: 40px;
+  padding-left: 40px;
 }
 
 .sidebar__soft-skills-list {
@@ -221,4 +233,8 @@ img {
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
+}
+
+.sidebar__soft-skills-text:hover {
+  color: #fb6d3a;
 }/*# sourceMappingURL=main.css.map */
