@@ -1,10 +1,10 @@
 .sidebar {
   background-color: #1e2939;
-  padding-top: 40px;
+
   width: 370px;
 }
 .sidebar__photo {
-  width: 370px;
+  width: 100%;
   margin-bottom: 50px;
 }
 .sidebar__title {
@@ -16,9 +16,9 @@
   line-height: 27px;
   margin-bottom: 10px;
 }
-.sitebare__contacts,
+.sidebar__contacts,
 .sidebar__tech-skills {
-  margin-left: 40px;
+  padding-left: 40px;
 }
 .sidebar__contact-type {
   font-style: normal;
@@ -28,12 +28,16 @@
   color: #ffffff;
   margin-right: 5px;
 }
-.sidebare__contact-link {
+.sidebar__contact-link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #565e6a;
+}
+.sidebar__contact-link:hover,
+.sidebar__contact-link:focus {
+  color: #fb6d3a;
 }
 .sidebar__contacts {
   margin-bottom: 50px;
@@ -41,8 +45,7 @@
 .sidebar__tech-skills-list {
   color: #fff;
   padding: 0;
-  margin-left: 15px;
-}
+  
 .sidebar__tech-skills-point {
   color: #fb6d3a;
 }
@@ -61,18 +64,18 @@
   color: #ffffff;
 }
 .sidebar__soft-skills {
-  margin-top: 50px;
-  margin-left: 40px;
+  
+  padding-left: 40px;
 }
-.sidebare__soft-skills-list {
+.sidebar__soft-skills-list {
   color: #fff;
   padding: 0;
   margin-left: 15px;
 }
-.sidebare__soft-skills-point {
+.sidebar__soft-skills-point {
   color: #fb6d3a;
 }
-.sidebare__soft-skills-text {
+.sidebar__soft-skills-text {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
